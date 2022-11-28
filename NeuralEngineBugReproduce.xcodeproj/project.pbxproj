@@ -11,6 +11,7 @@
 		D290FB042934B452008A4C85 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D290FB032934B452008A4C85 /* ContentView.swift */; };
 		D290FB062934B453008A4C85 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D290FB052934B453008A4C85 /* Assets.xcassets */; };
 		D290FB092934B453008A4C85 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D290FB082934B453008A4C85 /* Preview Assets.xcassets */; };
+		D290FB102934B4EB008A4C85 /* Block.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = D290FB0F2934B4EB008A4C85 /* Block.mlmodel */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +20,7 @@
 		D290FB032934B452008A4C85 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		D290FB052934B453008A4C85 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D290FB082934B453008A4C85 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		D290FB0F2934B4EB008A4C85 /* Block.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = Block.mlmodel; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,6 +53,7 @@
 		D290FB002934B452008A4C85 /* NeuralEngineBugReproduce */ = {
 			isa = PBXGroup;
 			children = (
+				D290FB0F2934B4EB008A4C85 /* Block.mlmodel */,
 				D290FB012934B452008A4C85 /* NeuralEngineBugReproduceApp.swift */,
 				D290FB032934B452008A4C85 /* ContentView.swift */,
 				D290FB052934B453008A4C85 /* Assets.xcassets */,
@@ -139,6 +142,7 @@
 			files = (
 				D290FB042934B452008A4C85 /* ContentView.swift in Sources */,
 				D290FB022934B452008A4C85 /* NeuralEngineBugReproduceApp.swift in Sources */,
+				D290FB102934B4EB008A4C85 /* Block.mlmodel in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -275,6 +279,7 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -304,6 +309,7 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
